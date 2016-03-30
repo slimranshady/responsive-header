@@ -14,12 +14,12 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+  font-family: Ubuntu;
 }
 
 body {
   margin: 0;
-  font-family: Ubuntu;
-  padding: 0;
+  padding: .25em;
 }
 
 header {
@@ -30,7 +30,6 @@ h1 {
   font-size: 2rem;
   color: #fff;
   text-align: center;
-
 }
 
 a {
@@ -46,7 +45,6 @@ ul {
   list-style-type: none;
   padding: 0;
   padding-bottom: .25em;
-  margin-left: .5em;
 }
 
 a:hover {
