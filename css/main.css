@@ -1,0 +1,102 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Ubuntu;
+  padding: 0;
+}
+
+header {
+  background-color: #18294f;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+
+}
+
+a {
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #6c8fe0;
+
+  display: block;
+  padding: .5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: .25em;
+  margin-left: .5em;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #6c8fe0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  a {
+    text-align: center;
+  }
+
+  li {
+    float: left;
+    width: 50%;
+  }
+
+  ul {
+    margin: 0;
+    overflow: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  li {
+    width: 25%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  nav {
+    float: right;
+  }
+
+  h1 {
+    float: left;
+  }
+
+  header {
+    overflow: hidden;
+  }
+
+  li {
+    width: auto;
+    padding-top: 1rem;
+  }
+
+}
