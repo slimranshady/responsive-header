@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  padding: .25em;
+  padding: 0;
 }
 
 header {
@@ -30,10 +30,13 @@ h1 {
   font-size: 2rem;
   color: #fff;
   text-align: center;
+  line-height: 1.5;
+  margin: 0;
 }
 
 a {
   font-size: 1.125rem;
+  line-height: 1.4;
   text-decoration: none;
   color: #6c8fe0;
 
@@ -43,7 +46,7 @@ a {
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: .25em;
   padding-bottom: .25em;
 }
 
@@ -98,3 +101,9 @@ a:hover {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
